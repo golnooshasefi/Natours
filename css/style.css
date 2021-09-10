@@ -1,5 +1,5 @@
 *,
-*::after
+*::after,
 *::before {
   margin: 0;
   padding: 0;
@@ -494,10 +494,10 @@ body {
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
-    position: relative; }
+    position: relative;
+    overflow: hidden; }
   .story__img {
     height: 100%;
-    width: 100%;
     transform: translateX(-3.3rem) scale(1.4);
     transition: all .5s; }
   .story__text {
@@ -641,7 +641,8 @@ body {
   z-index: 1500;
   opacity: 0;
   width: 0;
-  transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6); }
+  transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  overflow: hidden; }
 
 .navigation__list {
   position: absolute;
