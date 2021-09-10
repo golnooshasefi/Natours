@@ -20,11 +20,12 @@
         clip-path: circle(50% at 50% 50%);
         transform: translateX(-3rem) skewX(12deg);
         position: relative;
+        overflow: hidden;
+
     }
 
     &__img {
         height: 100%;
-        width: 100%;
         transform: translateX(-3.3rem) scale(1.4);
         // backface-visibility: hidden;
         transition: all .5s;
