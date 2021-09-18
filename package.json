@@ -4,6 +4,7 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
+    "start": "live-server --port=8081",
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Golnoosh",
