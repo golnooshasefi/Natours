@@ -64,7 +64,8 @@
              $color-secondary-dark), url(../images/nat-5-small.png);
 
              @media (min-resolution: 192dpi) and (min-width: 37.5em), 
-                       (min-width: 125em) {
+                    (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+                    (min-width: 125em) {
                         background-image: linear-gradient(to right bottom,
                         $color-secondary-light, 
                         $color-secondary-dark), 
@@ -79,7 +80,8 @@
             ,url(../images/nat-6-small.png);
 
             @media (min-resolution: 192dpi) and (min-width: 37.5em), 
-                       (min-width: 125em) {
+                   (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+                   (min-width: 125em) {
                         background-image: linear-gradient(to right bottom,
                         $color-primary-light, 
                         $color-primary-dark), 
@@ -93,8 +95,9 @@
             $color-tertiary-dark),
             url(../images/nat-7-small.png);
 
-            @media (min-resolution: 192dpi) and (min-width: 37.5em), 
-                       (min-width: 125em) {
+            @media (min-resolution: 192dpi) and (min-width: 37.5em),
+                   (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), 
+                   (min-width: 125em) {
                         background-image: linear-gradient(to right bottom,
                         $color-tertiary-light, 
                         $color-tertiary-dark), 
